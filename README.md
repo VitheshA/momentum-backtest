@@ -20,6 +20,10 @@ At each month-end, rank 100 large-cap stocks by their return from 12 months ago 
 
 **Do not believe this number.** A 28.5% CAGR is roughly double the market's over the same period, and no real momentum strategy earns that. The reason is in the universe, not the signal — see below.
 
+## P5 extension
+
+[Factor Model (P5)](p5-factor-model/README.md) extends this backtest with Fama-French factor regressions and random-portfolio comparisons. Source code is published; real-data results are not yet verified.
+
 ## Scripts
 
 - `01_buy_and_hold.py` — validates the backtest harness on SPY buy-and-hold, where the answer is already known, and cross-checks the monthly CAGR against the daily one
