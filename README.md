@@ -26,8 +26,6 @@ At each month-end, rank 100 large-cap stocks by their return over the previous 1
 - `02_signal.py` — saves monthly momentum rankings
 - `03_backtest.py` — runs the strategy and saves charts
 
-[P5 Factor Model](p5-factor-model/README.md) extends this with factor regressions and random-portfolio comparisons; its real-data results are not yet verified.
-
 ## Run
 
 ```bash
